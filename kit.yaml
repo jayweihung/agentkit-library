@@ -1,0 +1,4 @@
+name: library
+# General rules and skills anyone can use. Nothing company- or person-specific.
+recommended:
+  rules: [zh-tw, skill-usage, subagent-edits]
