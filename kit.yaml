@@ -2,5 +2,5 @@ name: library
 push: direct   # only my own source: kit push commits here and pushes to every remote, no PR
 # General rules and skills anyone can use. Nothing company- or person-specific.
 recommended:
-  rules: [zh-tw, skill-usage, subagent-edits, progress-note]
+  rules: [zh-tw, skill-usage, subagent-edits, progress-note, every-platform, tests-that-matter]
 collect_sources: [github.com/tt-a1i/archify]
