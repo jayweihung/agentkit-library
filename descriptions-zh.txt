@@ -1,0 +1,75 @@
+plugin:ponytail	714e9929b6ee	偷懶的資深工程師模式：用最少、最簡單又真的能用的改法解決問題，不加沒人要的抽象，回覆短而清楚、說出省掉什麼和風險。含 review、整個 repo 稽核、捷徑清單等指令。
+skill:academy-guide	8cdd131f2596	使用者問如何使用 Claude 或相關產品時，推薦 Claude Academy 裡合適的課程、教學和使用案例。只在使用者想學習時用，已經在做事時不用。
+skill:algorithmic-art	06b6daf853b7	用 p5.js 寫程式做演算法藝術，有固定亂數種子，可互動調整參數。想要生成藝術、流場、粒子系統時使用，作品皆為原創。
+skill:ask-matt	c67dafd5eac3	問你的情況適合用哪個 skill 或流程，幫你在這個倉庫的 skill 裡挑對的。
+skill:brainstorming	661dd47acf49	動手做新功能、新東西之前先用：做功能、做元件、改行為或規劃任何新事物（不限軟體）時，先把想法釐清。
+skill:brand-guidelines	c08c0cbc501a	把 Anthropic 官方的品牌色和字型套用到成品上。需要品牌色、風格規範或公司設計標準時使用。
+skill:canvas-design	5ba49504de6c	依設計理念做出 .png 和 .pdf 的視覺作品。想做海報、藝術作品或其他靜態設計時使用，皆為原創設計。
+skill:chief-of-staff	5684f5a26de9	在單一對話裡協調多個子 agent，完成一個長時間的目標。
+skill:claude-api	89b4c9569b27	Claude API / Anthropic SDK 的參考資料：模型代號、價格、參數、串流、工具、MCP、快取、模型升級等。提到 Claude 或寫 LLM 相關程式時先看。
+skill:claude-handoff	569da59e9964	把目前的對話交給一個全新的背景 agent，讓它立刻接手繼續做。
+skill:code-review	b33977173ea2	審查某個起點之後的改動，分兩方面：是否符合專案規範、是否符合需求。兩邊同時審，並列回報。適合審分支、PR 或進行中的改動。
+skill:codebase-design	28155d8b5ba9	設計「深模組」的共用詞彙。想設計或改善模組介面、找出可深化的地方、讓程式更好測試時使用。
+skill:diagnosing-bugs	52e3a8763409	排查難搞的 bug 和效能退步的流程。使用者說要診斷、除錯，或回報東西壞了、報錯、很慢時使用。
+skill:diagnosing-superpowers	3049c5bd1a3a	superpowers 的工作階段出了問題時用，例如重複做事、無視計畫、太慢、太貴，找出原因，或整理成給維護者的問題回報。
+skill:discernment-nudge	0f566500aa61	給了建議、草稿、估算或分析等實質答案後，附上 2 到 3 個追問，幫使用者檢查事實、推理和遺漏。每次對話最多一次。
+skill:dispatching-parallel-agents	0a8ba2c1561c	有兩個以上互不相依、不共用狀態的任務時，分給多個 agent 同時進行。
+skill:docx	4ba6f6d08e29	建立、讀取、編輯 Word 文件（.docx）和範本（.dotx），包含目錄、頁碼、追蹤修訂、註解、圖片和取代文字。不適用 PDF 和試算表。
+skill:domain-modeling	c0f1c23a47c5	建立並打磨專案的領域模型。討論程式用語、寫或改 GLOSSARY.md、記錄 ADR 時使用。
+skill:executing-plans	40d66a99b5ff	在目前對話裡由自己照著實作計畫逐步做完。適合使用者選擇就地執行，或沒有子 agent 可用時。
+skill:finishing-a-development-branch	3258c12138a0	實作完成、測試都通過之後，用來決定怎麼把成果整合進主線。
+skill:frontend-design	0c633a8d3189	做新介面或改版時，提供有特色、有想法的視覺設計指引，包含風格方向和字型，避免看起來像制式範本。
+skill:gerrit-review	7238370eaace	唯讀地幫使用者審查一個 Gerrit 變更。例如 Herdr 的 Gerrit 面板按下 Review 時使用。
+skill:git-guardrails-claude-code	bcd4cd160a0f	設定 Claude Code 的 hook，在 push、reset --hard、clean、branch -D 等危險 git 指令執行前先擋下來。
+skill:grill-me	74b2d697538b	不留情面地訪問你，把計畫或設計問到清楚。
+skill:grill-with-docs	3db5c4f0a3da	不留情面地訪問你，把計畫或設計問到清楚，同時邊問邊產生文件（ADR 和詞彙表）。
+skill:grilling	1df9a61373e3	不留情面地追問使用者的計畫、決定或點子。想檢驗自己的想法，或說出「grill」類的話時使用。
+skill:handoff	77fb7091f425	把目前的對話濃縮成交接文件，讓另一個 agent 接手。
+skill:implement	06550ce573ef	依照規格或一組工單來實作一項工作。
+skill:implement-spec	d09bc19fadce	把 /to-spec 和 /to-tickets 的成果實際寫成程式。
+skill:improve-codebase-architecture	f2301c661b96	掃描程式碼找出可以深化的地方，做成視覺化 HTML 報告，再針對你挑的那一項深入追問。
+skill:internal-comms	81e6522192ac	協助撰寫各種公司內部溝通文件，例如狀態報告、主管更新、電子報、FAQ、事故報告、專案更新，並用公司習慣的格式。
+skill:kit-hello	87bbd9a0c630	只在使用者輸入「kit hello」時使用，回覆 agentkit 的測試用語。
+skill:loop-me	f8c3f9685348	針對我想建立的工作流程規格來訪問我，範圍限於這個工作區。
+skill:mcp-builder	a2b010bf8023	建立高品質 MCP 伺服器的指南，讓 LLM 能透過設計良好的工具使用外部服務。可用 Python（FastMCP）或 Node/TypeScript。
+skill:migrate-to-shoehorn	84992d11dab9	把測試檔裡的 as 型別斷言改成 @total-typescript/shoehorn。想取代測試中的 as 或需要部分測試資料時使用。
+skill:pdf	2b14fa3e8d9f	處理 PDF 的各種事：讀取文字和表格、合併、拆分、旋轉、加浮水印、建立、填表單、加解密、取出圖片、OCR 掃描檔。
+skill:pptx	2f8daf5dc441	處理 .pptx 和 .potx 的各種事：建立簡報、讀取內容、編輯、合併或拆分、範本、講者備忘稿和註解。
+skill:pr	2c618085b1cf	撰寫 PR 說明內容時使用。
+skill:prototype	269a228c9b30	做一個用完即丟的原型來回答設計問題。想確認狀態模型或邏輯順不順，或探索介面該長什麼樣時使用。
+skill:receiving-code-review	1fe2aed91464	收到程式碼審查意見、動手改之前用：要先查證技術上是否正確，意見不清楚或有疑問時要確認，不盲從也不敷衍附和。
+skill:requesting-code-review	f16f574310c5	完成任務、做完大功能或合併之前，請人審查，確認成果符合需求。
+skill:research	887f3da86fa0	針對問題查閱高可信度的第一手資料，並把結果整理成 Markdown 檔存進專案。想研究主題、收集文件或 API 資訊、把查資料交給背景 agent 時使用。
+skill:retro	3f65608ffa8b	對一次寫程式的工作階段做回顧檢討。
+skill:scaffold-exercises	f046d302bcd1	建立習題的目錄結構，含章節、題目、解答和說明，並能通過 lint。想搭課程習題骨架時使用。
+skill:setup-matt-pocock-skills	9973db71140b	替這個倉庫設定工程類 skill：議題追蹤器、分類標籤和領域文件的版面。第一次使用其他工程 skill 前先跑一次。
+skill:setup-pre-commit	053d1aacf2da	在目前的倉庫設定 Husky pre-commit hook，搭配 lint-staged（Prettier）、型別檢查和測試。
+skill:setup-ts-deep-modules	eef4bb37fc83	在 TypeScript 專案接上 dependency-cruiser，讓每個套件成為深模組，實作藏在子資料夾，只能透過入口檔存取。由使用者主動呼叫。
+skill:skill-creator	4300e1d246e6	建立新 skill、修改和改進現有 skill，並衡量成效。可跑評測、做效能比較、最佳化 skill 描述的觸發準確度。
+skill:slack-gif-creator	51540a8da242	製作適合 Slack 的動畫 GIF，提供限制條件、驗證工具和動畫概念。想做 Slack 用的 GIF 時使用。
+skill:software-factory	cfe7a1d59633	設計「軟體工廠」的共用語言：它要執行的任務，以及它要接上的服務。
+skill:subagent-driven-development	e76a79cfecac	在目前對話裡執行實作計畫，且各任務彼此獨立時，交給子 agent 去做。
+skill:systematic-debugging	7bb7d3b2ecb0	遇到 bug、測試失敗或意外行為時，提出修正之前先用，有系統地找出原因。
+skill:tdd	8c33abf573bb	測試驅動開發。想先寫測試再做功能或修 bug、提到紅綠重構，或要寫整合測試時使用。
+skill:teach	83af8d8c944c	在這個工作區裡教使用者一個新技能或概念。
+skill:test-driven-development	0a2c85a97ce5	實作任何功能或修 bug 時，在寫程式碼之前先用，先寫測試。
+skill:theme-factory	25cd94b51266	替成品套用主題的工具組，適用簡報、文件、報告、HTML 頁面等。有 10 組現成配色字型，也能即時產生新主題。
+skill:to-questionnaire	ee12753b9218	把你無法完全回答的決定，變成問卷交給別人填寫。
+skill:to-spec	b406308ffdb2	把目前的對話整理成規格並發布到專案議題追蹤器，不再訪談，只彙整已經討論的內容。
+skill:to-tickets	efda0aa9f897	把計畫、規格或目前對話拆成一組工單，標明誰擋住誰，發布到設定好的追蹤器。
+skill:triage	81c8e7c96305	讓議題和外部 PR 依分流角色的狀態流程推進：分類、驗證、必要時追問，並寫出可交給 agent 的簡報。
+skill:using-git-worktrees	74f30d54546c	開始需要與目前工作區隔離的功能開發，或執行實作計畫之前，確保有獨立的工作區（原生工具或 git worktree）。
+skill:using-superpowers	7ce5d3b78f99	開始任何對話時用，說明如何找到並使用 skill，回應前要先呼叫相關 skill。
+skill:verification-before-completion	7038a206d198	宣稱做完、修好、通過、或要提交和開 PR 之前用：先實際跑驗證指令並確認輸出，有證據才下結論。
+skill:wait-what	2c514b3b40bc	剛才那段話沒講清楚時，停下來重新說明一次。
+skill:wayfinder	13db35f9d8be	規劃一個一次對話裝不下的大工程：在議題追蹤器上做成決策工單地圖，一張一張解決，直到路線清楚。
+skill:web-artifacts-builder	735554e9b848	用 React、Tailwind CSS、shadcn/ui 做複雜的多元件 claude.ai HTML 作品。需要狀態管理、路由時用，簡單單檔頁面不用。
+skill:webapp-testing	bee53e16ae4c	用 Playwright 操作並測試本機網頁應用，可驗證前端功能、除錯介面、截圖和查看瀏覽器記錄。
+skill:wizard	c89a499f34a7	產生互動式 bash 精靈，帶人一步步完成只有人能做的步驟，例如建立基礎設施、設定憑證、操作第三方後台。agent 自己能做的步驟不用。
+skill:writing-beats	3ac6238aadd0	寫作的整理階段：把原始素材編成一連串段落重點，每個重點用到的詞都先交代清楚。
+skill:writing-for-agents	7f9f508e72ac	撰寫給 agent 看的文件。建立或編輯 skill、修改 AGENTS.md 或 CLAUDE.md 時使用。
+skill:writing-fragments	0a9c2a7bd937	寫作的探索階段：挖出零散的原始片段，先不排結構。
+skill:writing-plans	1a532336c7a1	手上有多步驟任務的規格或需求時，在動手改程式之前先寫出計畫。
+skill:writing-shape	39cd481dd408	寫作的整理階段：把原始素材一段一段塑造成文章。
+skill:writing-skills	160690d80168	建立或編輯 skill，或在上線前驗證 skill 能正常運作時使用。
+skill:xlsx	f2da0bdab75d	處理試算表檔（.xlsx、.xlsm、.csv、.tsv）：開啟、編輯、修正、建立、算公式、格式、圖表、整理雜亂資料。成品是試算表時使用。

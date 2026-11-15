@@ -1,4 +1,4 @@
-# third_party.lock - written by kit collect; name url path ref commit license date
+# third_party.lock - written by kit collect; name url path ref commit license date [skip]
 academy-guide	https://github.com/anthropics/skills	skills/academy-guide	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 algorithmic-art	https://github.com/anthropics/skills	skills/algorithmic-art	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 archify	https://github.com/tt-a1i/archify	archify	-	7e45f36c66de1254d5ad6ba1d878f6499ea269fd	Apache-2.0	2026-11-11
@@ -33,12 +33,7 @@ loop-me	https://github.com/mattpocock/skills	skills/in-progress/loop-me	-	586380
 mcp-builder	https://github.com/anthropics/skills	skills/mcp-builder	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 migrate-to-shoehorn	https://github.com/mattpocock/skills	skills/misc/migrate-to-shoehorn	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
 pdf	https://github.com/anthropics/skills	skills/pdf	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
-ponytail	https://github.com/dietrichgebert/ponytail	skills/ponytail	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
-ponytail-audit	https://github.com/dietrichgebert/ponytail	skills/ponytail-audit	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
-ponytail-debt	https://github.com/dietrichgebert/ponytail	skills/ponytail-debt	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
-ponytail-gain	https://github.com/dietrichgebert/ponytail	skills/ponytail-gain	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
-ponytail-help	https://github.com/dietrichgebert/ponytail	skills/ponytail-help	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
-ponytail-review	https://github.com/dietrichgebert/ponytail	skills/ponytail-review	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15
+ponytail	https://github.com/dietrichgebert/ponytail	.	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15	hooks/claude-band.json,hooks/band,hooks/ponytail-band-import.js,hooks/ponytail-statusline.sh,hooks/ponytail-statusline.ps1
 pptx	https://github.com/anthropics/skills	skills/pptx	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 pr	https://github.com/mattpocock/skills	skills/engineering/pr	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
 prototype	https://github.com/mattpocock/skills	skills/engineering/prototype	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
