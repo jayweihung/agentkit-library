@@ -8,4 +8,5 @@
 - 不要每個小步驟都寫，也不要寫給自己看的流水帳。
 - 剛接手一個資料夾（重開、交接）時，先跑 `kit note --history` 看之前的 agent 寫到哪。
 - 停下來等使用者同意才能做下一步（例如裝東西、上線、改設定、簽章）時，先跑 `kit pending add "要你同意：<什麼>" --id <短名字>`，畫面程式會提醒使用者；使用者回了之後跑 `kit pending done <短名字>`。一般的提問、做完等使用者看，不用記。
+- 在 Herdr 裡跑（有 `$HC_TERMINAL_ID`）時，同一個時機也重寫 `~/.config/herdr-app/mods/agent-page/.pages/$HC_TERMINAL_ID/status.json`（這台沒有 `mods/agent-page` 就寫 `pages/` 不加點；先 `mkdir -p`），整個檔是 `{"title","updated","waiting":[{"text","cmd"}],"doing":[{"text","project"}],"todo":[…],"done":[{"text","project","date"}]}`，做完的留著：使用者在 agent 旁的說明頁看它，不用一個一個問。
 - 沒有 `kit` 指令、kit 說找不到上面的 agent、或被沙箱擋（不能寫 `~/.config/agentkit`），就略過，不用跟使用者提。
