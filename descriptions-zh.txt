@@ -19,6 +19,7 @@ skill:domain-modeling	c0f1c23a47c5	建立並打磨專案的領域模型。討論
 skill:executing-plans	40d66a99b5ff	在目前對話裡由自己照著實作計畫逐步做完。適合使用者選擇就地執行，或沒有子 agent 可用時。
 skill:finishing-a-development-branch	3258c12138a0	實作完成、測試都通過之後，用來決定怎麼把成果整合進主線。
 skill:frontend-design	0c633a8d3189	做新介面或改版時，提供有特色、有想法的視覺設計指引，包含風格方向和字型，避免看起來像制式範本。
+skill:gerrit-deep-review	2458536d4adb	唯讀地深入審查一個 Gerrit 變更，用本機下載好的程式：不只看改過的檔，也看誰呼叫、類似的程式、測試和架構。例如 Herdr 的 Gerrit 面板按下「深入 Review」時使用。
 skill:gerrit-review	7238370eaace	唯讀地幫使用者審查一個 Gerrit 變更。例如 Herdr 的 Gerrit 面板按下 Review 時使用。
 skill:git-guardrails-claude-code	bcd4cd160a0f	設定 Claude Code 的 hook，在 push、reset --hard、clean、branch -D 等危險 git 指令執行前先擋下來。
 skill:grill-me	74b2d697538b	不留情面地訪問你，把計畫或設計問到清楚。
