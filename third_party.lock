@@ -38,7 +38,7 @@ internal-comms	https://github.com/anthropics/skills	skills/internal-comms	-	1780
 loop-me	https://github.com/mattpocock/skills	skills/in-progress/loop-me	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
 mcp-builder	https://github.com/anthropics/skills	skills/mcp-builder	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 migrate-to-shoehorn	https://github.com/mattpocock/skills	skills/misc/migrate-to-shoehorn	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
-nvim-jay	https://github.com/jayweihung/herdr-jay	herdr-app/kit-plugins/nvim-jay	-	c7fd27c87cae5cd783f78e7346d53a79518fca32	Apache-2.0	2026-11-18	-
+nvim-jay	https://github.com/jayweihung/herdr-jay	herdr-app/kit-plugins/nvim-jay	-	3dc4e74c0ad9bc628291de6b92189ec971a86643	Apache-2.0	2026-11-18	-
 pdf	https://github.com/anthropics/skills	skills/pdf	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
 ponytail	https://github.com/dietrichgebert/ponytail	.	-	96608e078b2d5ea607c5c3b8b5a54d1c1fba6846	MIT	2026-11-15	hooks/claude-band.json,hooks/band,hooks/ponytail-band-import.js,hooks/ponytail-statusline.sh,hooks/ponytail-statusline.ps1
 pptx	https://github.com/anthropics/skills	skills/pptx	-	1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064	Apache-2.0	2026-11-15
