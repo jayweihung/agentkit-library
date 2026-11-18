@@ -1,0 +1,5 @@
+# 用 kit new mcp --config 從貼上的設定建立。${名字} 是環境變數：值不放在這裡，每台電腦自己設定。
+command: codegraph
+args:
+  - serve
+  - --mcp
