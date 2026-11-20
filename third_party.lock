@@ -70,7 +70,7 @@ to-tickets	https://github.com/mattpocock/skills	skills/engineering/to-tickets	-	
 triage	https://github.com/mattpocock/skills	skills/engineering/triage	-	5863806dd4e15c63174bee4e7515a4256792ecfa	MIT	2026-11-14
 ui-styling	https://github.com/nextlevelbuilder/ui-ux-pro-max-skill	.claude/skills/ui-styling	-	e59ff376a41f7ca47b7541ad5c116495cbade3ee	Apache-2.0	2026-11-18
 ui-ux-pro-max	https://github.com/nextlevelbuilder/ui-ux-pro-max-skill	.claude/skills/ui-ux-pro-max	-	e59ff376a41f7ca47b7541ad5c116495cbade3ee	MIT	2026-11-18
-unslop	https://github.com/heydamir/unslop	skills/unslop	-	620163eedb3529d9cd23a3994ed8d287d06f760d	CC	2026-11-21
+unslop	https://github.com/heydamir/unslop	.	-	620163eedb3529d9cd23a3994ed8d287d06f760d	CC	2026-11-20	-
 using-git-worktrees	https://github.com/obra/superpowers	skills/using-git-worktrees	-	22f0b463e7a5e579904dd6211a520321035526f7	MIT	2026-11-15
 using-superpowers	https://github.com/obra/superpowers	skills/using-superpowers	-	22f0b463e7a5e579904dd6211a520321035526f7	MIT	2026-11-15
 verification-before-completion	https://github.com/obra/superpowers	skills/verification-before-completion	-	22f0b463e7a5e579904dd6211a520321035526f7	MIT	2026-11-15
