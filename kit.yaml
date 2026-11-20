@@ -2,5 +2,5 @@ name: library
 push: direct   # only my own source: kit push commits here and pushes to every remote, no PR
 # General rules and skills anyone can use. Nothing company- or person-specific.
 recommended:
-  rules: [zh-tw, skill-usage, subagent-edits, progress-note, every-platform, tests-that-matter, kit-only]
+  rules: [zh-tw, skill-usage, subagent-edits, progress-note, every-platform, tests-that-matter, kit-only, worktree-cleanup]
 collect_sources: [github.com/tt-a1i/archify, github.com/mattpocock/skills, github.com/anthropics/skills, github.com/dietrichgebert/ponytail, github.com/obra/superpowers, github.com/nextlevelbuilder/ui-ux-pro-max-skill, github.com/jayweihung/herdr-jay, github.com/cathrynlavery/diagram-design, github.com/Leonxlnx/taste-skill, github.com/cloudflare/security-audit-skill, github.com/heydamir/unslop]
