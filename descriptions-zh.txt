@@ -1,8 +1,15 @@
+plugin:diagram-design	70b7cb96c1c5	照你的品牌畫出單一 HTML／SVG 的圖：架構、流程、時序、狀態、資料表、時間軸、甘特、組織圖和各種圖表；可重畫 draw.io、Mermaid 的檔，匯出 SVG 和 PNG。
+plugin:nvim-jay	343f649f3377	nvim-jay 給 Claude Code、Codex、omp 的 hook：跑指令前先存一份它會動的檔案，讓 nvim-jay 標出改了什麼；agent 停下前提醒它回覆問它的 agent。這台跑過 nvim-jay 才有作用。
 plugin:ponytail	714e9929b6ee	偷懶的資深工程師模式：用最少、最簡單又真的能用的改法解決問題，不加沒人要的抽象，回覆短而清楚、說出省掉什麼和風險。含 review、整個 repo 稽核、捷徑清單等指令。
+plugin:superpowers	0aecc27f8cae	Claude Code 的核心技能包：TDD、除錯、協作流程和實用技巧。
+plugin:unslop	620ea5269179	把 AI 套版感的介面改成有自己個性、設計過的樣子。
 skill:academy-guide	8cdd131f2596	使用者問如何使用 Claude 或相關產品時，推薦 Claude Academy 裡合適的課程、教學和使用案例。只在使用者想學習時用，已經在做事時不用。
 skill:algorithmic-art	06b6daf853b7	用 p5.js 寫程式做演算法藝術，有固定亂數種子，可互動調整參數。想要生成藝術、流場、粒子系統時使用，作品皆為原創。
+skill:archify	ae0977ba9606	把架構、流程、時序、資料流、狀態、資料表、時間軸等畫成可以互動的單一 HTML 圖，有深淺色、動畫，可匯出圖片；也能把一個回答做成一頁說明。不做儀表板。
 skill:ask-matt	c67dafd5eac3	問你的情況適合用哪個 skill 或流程，幫你在這個倉庫的 skill 裡挑對的。
+skill:banner-design	82c21cb45523	設計社群、廣告、網站首圖和印刷用的橫幅，給幾種不同的美術方向，可以用生成或你給的圖。
 skill:brainstorming	661dd47acf49	動手做新功能、新東西之前先用：做功能、做元件、改行為或規劃任何新事物（不限軟體）時，先把想法釐清。
+skill:brand	95600d7f8335	品牌語氣、視覺識別、訊息架構和素材管理，讓內容一致。寫品牌內容、定語氣、做行銷素材或風格規範時使用。
 skill:brand-guidelines	c08c0cbc501a	把 Anthropic 官方的品牌色和字型套用到成品上。需要品牌色、風格規範或公司設計標準時使用。
 skill:canvas-design	5ba49504de6c	依設計理念做出 .png 和 .pdf 的視覺作品。想做海報、藝術作品或其他靜態設計時使用，皆為原創設計。
 skill:chief-of-staff	5684f5a26de9	在單一對話裡協調多個子 agent，完成一個長時間的目標。
@@ -10,6 +17,9 @@ skill:claude-api	89b4c9569b27	Claude API / Anthropic SDK 的參考資料：模�
 skill:claude-handoff	569da59e9964	把目前的對話交給一個全新的背景 agent，讓它立刻接手繼續做。
 skill:code-review	b33977173ea2	審查某個起點之後的改動，分兩方面：是否符合專案規範、是否符合需求。兩邊同時審，並列回報。適合審分支、PR 或進行中的改動。
 skill:codebase-design	28155d8b5ba9	設計「深模組」的共用詞彙。想設計或改善模組介面、找出可深化的地方、讓程式更好測試時使用。
+skill:design	901ad6da1f6a	設計全包：品牌識別、設計 token、介面樣式、Logo、企業識別、HTML 簡報、橫幅、圖示和社群圖片。
+skill:design-system	e10f01ac1218	設計 token（基本、語意、元件三層）、CSS 變數、間距和字級、元件規格，也能照品牌做簡報。做設計系統時使用。
+skill:design-taste-frontend	c7d1ad06bf3e	做專業等級的公司網站，避免 AI 套版感：文字有自己的語氣、一套系統、真的照片和產品畫面，並在瀏覽器裡實際檢查。做或改網站前端時使用。
 skill:diagnosing-bugs	52e3a8763409	排查難搞的 bug 和效能退步的流程。使用者說要診斷、除錯，或回報東西壞了、報錯、很慢時使用。
 skill:diagnosing-superpowers	3049c5bd1a3a	superpowers 的工作階段出了問題時用，例如重複做事、無視計畫、太慢、太貴，找出原因，或整理成給維護者的問題回報。
 skill:discernment-nudge	0f566500aa61	給了建議、草稿、估算或分析等實質答案後，附上 2 到 3 個追問，幫使用者檢查事實、推理和遺漏。每次對話最多一次。
@@ -19,8 +29,11 @@ skill:domain-modeling	c0f1c23a47c5	建立並打磨專案的領域模型。討論
 skill:executing-plans	40d66a99b5ff	在目前對話裡由自己照著實作計畫逐步做完。適合使用者選擇就地執行，或沒有子 agent 可用時。
 skill:finishing-a-development-branch	3258c12138a0	實作完成、測試都通過之後，用來決定怎麼把成果整合進主線。
 skill:frontend-design	0c633a8d3189	做新介面或改版時，提供有特色、有想法的視覺設計指引，包含風格方向和字型，避免看起來像制式範本。
+skill:gerrit-comments	183e78a07c7a	整理 Gerrit 變更上還沒解決的審查留言：每個審查者要什麼、在哪裡。例如 Herdr 的 Gerrit 面板按「整理留言」時使用。
 skill:gerrit-deep-review	2458536d4adb	唯讀地深入審查一個 Gerrit 變更，用本機下載好的程式：不只看改過的檔，也看誰呼叫、類似的程式、測試和架構。例如 Herdr 的 Gerrit 面板按下「深入 Review」時使用。
+skill:gerrit-draft-replies	8b9a76b54cf6	幫使用者草擬 Gerrit 變更上審查留言的回覆，先給使用者看，同意了才存成 Gerrit 草稿。例如 Herdr 的 Gerrit 面板按「幫我回覆」時使用。
 skill:gerrit-review	7238370eaace	唯讀地幫使用者審查一個 Gerrit 變更。例如 Herdr 的 Gerrit 面板按下 Review 時使用。
+skill:gerrit-why-blocked	da77d86158c8	說明一個 Gerrit 變更為什麼還不能送出：缺投票、檢查沒過、留言沒解決、合併衝突、相依的變更。例如 Herdr 的 Gerrit 面板按「為什麼沒過」時使用。
 skill:git-guardrails-claude-code	bcd4cd160a0f	設定 Claude Code 的 hook，在 push、reset --hard、clean、branch -D 等危險 git 指令執行前先擋下來。
 skill:grill-me	74b2d697538b	不留情面地訪問你，把計畫或設計問到清楚。
 skill:grill-with-docs	3db5c4f0a3da	不留情面地訪問你，把計畫或設計問到清楚，同時邊問邊產生文件（ADR 和詞彙表）。
@@ -43,11 +56,13 @@ skill:requesting-code-review	f16f574310c5	完成任務、做完大功能或合�
 skill:research	887f3da86fa0	針對問題查閱高可信度的第一手資料，並把結果整理成 Markdown 檔存進專案。想研究主題、收集文件或 API 資訊、把查資料交給背景 agent 時使用。
 skill:retro	3f65608ffa8b	對一次寫程式的工作階段做回顧檢討。
 skill:scaffold-exercises	f046d302bcd1	建立習題的目錄結構，含章節、題目、解答和說明，並能通過 lint。想搭課程習題骨架時使用。
+skill:security-audit	f2ea0fbba15c	程式碼、API、服務、CLI、函式庫的安全建議和弱點審查。問安全問題、審查一段程式或做弱點研究時使用；明確要求整個 repo 稽核或滲透測試才跑完整流程。
 skill:setup-matt-pocock-skills	9973db71140b	替這個倉庫設定工程類 skill：議題追蹤器、分類標籤和領域文件的版面。第一次使用其他工程 skill 前先跑一次。
 skill:setup-pre-commit	053d1aacf2da	在目前的倉庫設定 Husky pre-commit hook，搭配 lint-staged（Prettier）、型別檢查和測試。
 skill:setup-ts-deep-modules	eef4bb37fc83	在 TypeScript 專案接上 dependency-cruiser，讓每個套件成為深模組，實作藏在子資料夾，只能透過入口檔存取。由使用者主動呼叫。
 skill:skill-creator	4300e1d246e6	建立新 skill、修改和改進現有 skill，並衡量成效。可跑評測、做效能比較、最佳化 skill 描述的觸發準確度。
 skill:slack-gif-creator	51540a8da242	製作適合 Slack 的動畫 GIF，提供限制條件、驗證工具和動畫概念。想做 Slack 用的 GIF 時使用。
+skill:slides	02923cfada92	用 Chart.js 和設計 token 做有策略的 HTML 簡報，含響應式版面和文案寫法。
 skill:software-factory	cfe7a1d59633	設計「軟體工廠」的共用語言：它要執行的任務，以及它要接上的服務。
 skill:subagent-driven-development	e76a79cfecac	在目前對話裡執行實作計畫，且各任務彼此獨立時，交給子 agent 去做。
 skill:systematic-debugging	7bb7d3b2ecb0	遇到 bug、測試失敗或意外行為時，提出修正之前先用，有系統地找出原因。
@@ -59,6 +74,8 @@ skill:to-questionnaire	ee12753b9218	把你無法完全回答的決定，變成�
 skill:to-spec	b406308ffdb2	把目前的對話整理成規格並發布到專案議題追蹤器，不再訪談，只彙整已經討論的內容。
 skill:to-tickets	efda0aa9f897	把計畫、規格或目前對話拆成一組工單，標明誰擋住誰，發布到設定好的追蹤器。
 skill:triage	81c8e7c96305	讓議題和外部 PR 依分流角色的狀態流程推進：分類、驗證、必要時追問，並寫出可交給 agent 的簡報。
+skill:ui-styling	5e167a23e405	用 shadcn/ui（Radix + Tailwind）和 Tailwind CSS 做好看、無障礙的介面，含深色模式、主題配色和畫布式視覺設計。
+skill:ui-ux-pro-max	7438d207c4ac	網頁、手機、桌面介面的設計知識庫：版面、配色、字型、無障礙、互動、圖表都有可查的資料。設計、做、審查或修介面時使用。
 skill:using-git-worktrees	74f30d54546c	開始需要與目前工作區隔離的功能開發，或執行實作計畫之前，確保有獨立的工作區（原生工具或 git worktree）。
 skill:using-superpowers	7ce5d3b78f99	開始任何對話時用，說明如何找到並使用 skill，回應前要先呼叫相關 skill。
 skill:verification-before-completion	7038a206d198	宣稱做完、修好、通過、或要提交和開 PR 之前用：先實際跑驗證指令並確認輸出，有證據才下結論。
